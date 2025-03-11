@@ -25,11 +25,11 @@ public class chapter1_6 {
 					}
 				}
 				else {
-            		System.out.print("포함되지 않는다");
+            				System.out.print("포함되지 않는다");
 				}
 			}
 			else {
-        		System.out.print("포함되지 않는다");
+        			System.out.print("포함되지 않는다");
 			}
 		}
 		else {
