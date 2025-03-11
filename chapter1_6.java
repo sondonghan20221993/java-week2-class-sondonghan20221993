@@ -21,16 +21,16 @@ public class chapter1_6 {
 						System.out.print("포함된다");
 					}
 					else
-						System.out.print("포함되지 않는는다");
+						System.out.print("포함되지 않는다");
 				}
 				else
-            	System.out.print("포함되지 않는는다");
+            	System.out.print("포함되지 않는다");
 			}
 			else
-        	System.out.print("포함되지 않는는다");
+        	System.out.print("포함되지 않는다");
 		}
 		else
-			System.out.print("포함되지 않는는다");
+			System.out.print("포함되지 않는다");
 	scanner.close();
 	}
 }
