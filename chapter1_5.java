@@ -1,4 +1,3 @@
-package java;
 import java.util.Scanner;
 
 public class chapter1_5 {
@@ -17,7 +16,37 @@ public class chapter1_5 {
             red =age/10;
             blue=(age%10)/5;
             yellow=(age%10)%5;
-            System.out.println("빨간 초"+red+"개,파란 초" +blue+"개, 노란 초 " + yellow+"개"+". 총 "+(red+yellow+blue)+"개가 필요합니다.");
+            if(red == 0) {
+            	if(blue == 0) {
+            		System.out.println("노란 초 " + yellow+"개"+". 총 "+yellow+"개가 필요합니다.");
+            	}
+            	else {
+            		if(yellow == 0) {
+            			System.out.println("파란 초 " +blue+"개. 총 "+(blue)+"개가 필요합니다.");
+            		}
+            		else {
+            			System.out.println("파란 초 " +blue+"개, 노란 초 " + yellow+"개"+". 총 "+(yellow+blue)+"개가 필요합니다.");
+            		}
+            	}
+            }
+            else {
+            	if(blue == 0) {
+            		if(yellow  == 0) {
+            			System.out.println("빨간 초 "+red+"개. 총 "+(red+yellow)+"개가 필요합니다.");
+            		}
+            		else {
+            			System.out.println("빨간 초 "+red+"개, 노란 초 " + yellow+"개"+". 총 "+(red+yellow)+"개가 필요합니다.");
+            		}
+            	}
+            	else {
+            		if(yellow  == 0) {
+            			System.out.println("빨간 초 "+red+"개, 파란 초 " +blue+"개. 총 "+(red+blue)+"개가 필요합니다.");
+            		}
+            		else {
+            			System.out.println("빨간 초 "+red+"개, 파란 초 " +blue+"개, 노란 초 " + yellow+"개"+". 총 "+(red+yellow+blue)+"개가 필요합니다.");
+            		}
+            	}
+            }
         }   
         //나이가 0보다 작을 시
         else
