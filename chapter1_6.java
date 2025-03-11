@@ -20,17 +20,21 @@ public class chapter1_6 {
 						//모두 참일시 포함된다 출력
 						System.out.print("포함된다");
 					}
-					else
+					else {
 						System.out.print("포함되지 않는다");
+					}
 				}
-				else
+				else {
             		System.out.print("포함되지 않는다");
+				}
 			}
-			else
+			else {
         		System.out.print("포함되지 않는다");
+			}
 		}
-		else
+		else {
 			System.out.print("포함되지 않는다");
+		}
 	scanner.close();
 	}
 }
